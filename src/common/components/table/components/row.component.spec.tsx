@@ -2,7 +2,7 @@ import * as React from 'react';
 import { render } from '@testing-library/react';
 import { RowComponent } from './row.component';
 
-describe('common/table/RowComponent', () => {
+xdescribe('common/table/RowComponent', () => {
   it('should render as expected passing required properties', () => {
     // Arrange
     const props = {

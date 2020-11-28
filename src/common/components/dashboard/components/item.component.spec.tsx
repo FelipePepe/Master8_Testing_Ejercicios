@@ -6,7 +6,7 @@ import { Route } from 'react-router-dom';
 import { ItemComponent, ClassesProps } from './item.component';
 import { DashboardItemProps } from '../dashboard.vm';
 
-describe('common/dashboard/ItemComponent', () => {
+xdescribe('common/dashboard/ItemComponent', () => {
   it('should be render as expected passing required properties', () => {
     // Arrange
     const props = {

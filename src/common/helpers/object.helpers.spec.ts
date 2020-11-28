@@ -1,6 +1,6 @@
 import { flattenObject } from './object.helpers';
 
-describe('common/helpers/object.helpers specs', () => {
+xdescribe('common/helpers/object.helpers specs', () => {
   describe('flattenObject', () => {
     it('should return null when if feeds entity equals undefined', () => {
       // Arrange

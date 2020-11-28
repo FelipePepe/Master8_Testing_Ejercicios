@@ -2,7 +2,7 @@ import * as React from 'react';
 import { render } from '@testing-library/react';
 import { CellComponent } from './cell.component';
 
-describe('common/table/CellComponent', () => {
+xdescribe('common/table/CellComponent', () => {
   it('should render as expected passing required properties', () => {
     // Arrange
 

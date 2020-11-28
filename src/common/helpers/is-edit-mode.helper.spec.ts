@@ -1,6 +1,6 @@
 import { isEditModeHelper } from './is-edit-mode.helper';
 
-describe('/common/helpers/is-edit-model.helper.spect', () => {
+xdescribe('/common/helpers/is-edit-model.helper.spect', () => {
   it('should return false when feeding id equals null', () => {
     // Arrange
     const id = null;
