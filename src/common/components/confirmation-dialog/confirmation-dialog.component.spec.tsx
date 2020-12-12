@@ -96,32 +96,4 @@ describe('Confirmation Dialog Components specs', () => {
     // Assert
     expect(element).toBeInTheDocument();
   });
-
-  it('Should be displayed confirmation dialog components using snapshot testing', () => {
-    // Arrange
-    const props = {
-      isOpen: true,
-      title: 'test title',
-      labels: {
-        closeButton: 'test Close',
-        acceptButton: 'test Accept',
-      },
-      onAccept: jest.fn(),
-      onClose: jest.fn(),
-    };
-
-    const itemName = 'Hello Testing World';
-
-    // Act
-    render(
-      <ConfirmationDialogComponent {...props}>
-        <Typography variant="body1">{itemName}</Typography>
-      </ConfirmationDialogComponent>
-    );
-
-    const element = screen.getByRole('presentation');
-
-    // Assert
-    expect(element).toMatchSnapshot();
-  });
 });
