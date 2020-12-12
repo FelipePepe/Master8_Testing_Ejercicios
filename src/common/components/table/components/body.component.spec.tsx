@@ -6,7 +6,7 @@ import { RowComponent } from './row.component';
 import { CellComponent } from './cell.component';
 import { RowRendererProps } from '../table.vm';
 
-describe('common/table/BodyComponent', () => {
+xdescribe('common/table/BodyComponent', () => {
   it('should render as expected', () => {
     // Arrange
     const TestRowComponent: React.FunctionComponent<RowRendererProps<

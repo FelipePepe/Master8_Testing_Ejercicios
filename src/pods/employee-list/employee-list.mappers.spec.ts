@@ -2,7 +2,7 @@ import * as apiModel from './api/employee-list.api-model';
 import * as viewModel from './employee-list.vm';
 import { mapEmployeeListFromApiToVm } from './employee-list.mappers';
 
-describe('./pods/employee-list', () => {
+xdescribe('./pods/employee-list', () => {
   it('should return empty array when feeding undefined employee list', () => {
     // Arrange
     const employeeList = undefined;

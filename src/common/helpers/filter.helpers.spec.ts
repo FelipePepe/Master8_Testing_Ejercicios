@@ -10,7 +10,7 @@ interface Item {
   role?: Lookup;
 }
 
-describe('common/helpers/filter.helpers specs', () => {
+xdescribe('common/helpers/filter.helpers specs', () => {
   describe('filterByFields', () => {
     it('should return empty array when it feeds collection equals undefined', () => {
       // Arrange

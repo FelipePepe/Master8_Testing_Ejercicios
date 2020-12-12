@@ -2,7 +2,7 @@ import * as apiModel from './api/project-list.api-model';
 import * as viewModel from './project-list.vm';
 import { mapProjectListFromApiToVm } from './project-list.mappers';
 
-describe('./pods/project-list', () => {
+xdescribe('./pods/project-list', () => {
   it('should return empty array when feeding undefined project list', () => {
     // Arrange
     const projectList = undefined;

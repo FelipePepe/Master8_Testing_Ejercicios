@@ -3,7 +3,7 @@ import { HeaderGroup } from 'react-table';
 import { render } from '@testing-library/react';
 import { HeaderComponent } from './header.component';
 
-describe('common/table/HeaderComponent', () => {
+xdescribe('common/table/HeaderComponent', () => {
   it('should be rendered as expected passing required properties', () => {
     // Arrange
     const props = {
