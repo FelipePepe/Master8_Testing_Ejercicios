@@ -6,7 +6,7 @@ import { ConfirmationDialogComponent } from './confirmation-dialog.component';
 import { Typography } from '@material-ui/core';
 
 describe('Confirmation Dialog Components specs', () => {
-  it('Should display confirmation dialog components click on Accept', () => {
+  it('Should be displayed confirmation dialog components click on Accept', () => {
     // Arrange
     const props = {
       isOpen: true,
@@ -37,7 +37,7 @@ describe('Confirmation Dialog Components specs', () => {
     // Assert
     expect(props.onAccept).toHaveBeenCalled();
   });
-  it('Should display confirmation dialog components click on Accept', () => {
+  it('Should be displayed confirmation dialog components click on Accept', () => {
     // Arrange
     const props = {
       isOpen: true,
@@ -69,7 +69,7 @@ describe('Confirmation Dialog Components specs', () => {
     expect(props.onAccept).toHaveBeenCalled();
   });
 
-  it('Should display confirmation dialog components', () => {
+  it('Should be displayed confirmation dialog components', () => {
     // Arrange
     const props = {
       isOpen: true,
@@ -97,7 +97,7 @@ describe('Confirmation Dialog Components specs', () => {
     expect(element).toBeInTheDocument();
   });
 
-  it('Should display confirmation dialog components using snapshot testing', () => {
+  it('Should be displayed confirmation dialog components using snapshot testing', () => {
     // Arrange
     const props = {
       isOpen: true,
